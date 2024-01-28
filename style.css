@@ -3,17 +3,17 @@
     padding: 0;
 }
 body{
-    /*background-color: black;
-    color: white;*/
+    background-color: black;
+    color: white;
 }
 
 .left{
-    width: 25vw;
+    width: 20vw;
     padding: 14px;;
 }
 
 .right{
-    width: 75vw;
+    width: 80vw;
 }
 
 .home{
@@ -23,7 +23,40 @@ body{
 .home ul li{
     display: flex;
     gap: 15px;
-    width: 14px;
+    width: 15px;
     list-style: none;
     padding-top: 15px;
+    font-weight: bold;
+}
+
+.heading{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    list-style: none;
+    padding-top: 15px; 
+    padding: 23px,14px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.heading img{
+    width: 20px;
+}
+
+.footer{
+    display: flex;
+    gap: 13px;
+    font-size: 7px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a{
+    color: grey;
+}
+
+.library {
+    min-height: 75vh;
+    position: relative;
 }
