@@ -136,3 +136,9 @@ body{
   -ms-overflow-style: -ms-autohiding-scrollbar;
    scrollbar-face-color: #444;
    scrollbar-track-color: #333;
+
+.signup{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
