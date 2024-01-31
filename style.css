@@ -8,12 +8,12 @@ body{
 }
 
 .left{
-    width: 20vw;
-    padding: 14px;;
+    width: 25vw;
+    padding: 10px;;
 }
 
 .right{
-    width: 80vw;
+    width: 75vw;
     padding: 14px;
 
 }
@@ -120,4 +120,19 @@ body{
     transition: all 1s ease-out;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #444; /* Dark color for the thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Dark background color for the track */
+  }
 
+  scrollbar-color: #333 #444;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+   scrollbar-face-color: #444;
+   scrollbar-track-color: #333;
