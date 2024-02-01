@@ -132,13 +132,18 @@ body{
     background: #333; /* Dark background color for the track */
   }
 
-  scrollbar-color: #333 #444;
+  /*scrollbar-color: #333 #444;
   -ms-overflow-style: -ms-autohiding-scrollbar;
    scrollbar-face-color: #444;
-   scrollbar-track-color: #333;
+scrollbar-track-color: #333;*/
 
-.signup{
+.signupbtn{
     background-color: black;
     color: white;
     font-weight: bold;
+}
+
+.signupbtn :hover{
+    font-size: 1.1rem;
+    color: white;
 }
