@@ -137,13 +137,31 @@ body{
    scrollbar-face-color: #444;
 scrollbar-track-color: #333;*/
 
-.signupbtn{
-    background-color: black;
-    color: white;
-    font-weight: bold;
+.buttons >*{
+    margin: 0 12px;
 }
 
-.signupbtn :hover{
-    font-size: 1.1rem;
+.signupbtn{
+    background-color: #343434;
+    color: #828282;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signupbtn:hover{
+    font-size:1.1rem;
     color: white;
+}
+
+.loginbtn{
+    background-color: #343434;
+    color: #828282;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
 }
