@@ -1,3 +1,7 @@
-let a =  await fetch("")
-let response = await a.text();
-console.log(response)
+function main(){
+    
+    let a =  await fetch("")
+    let response = await a.text();
+    console.log(response)   
+}
+
